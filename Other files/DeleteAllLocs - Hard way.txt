@@ -1,0 +1,100 @@
+***************************************************
+**************** DeleteAllLocs.vue ****************
+***************************************************
+
+<template lang="pug">
+div(id="liveAlertPlaceholder", class="mb-4")
+  button(
+    type="button",
+    id="liveAlertBtn",
+    class="d-block ms-auto mt-4 mt-sm-0 btn btn-outline-danger",
+    @click="deleteAll(d)"
+  ) Delete All
+
+div
+  pre {{ d }}
+
+// Alert
+main-alert(
+  :toggleSuccess="alertStatus.success",
+  :toggleFail="alertStatus.fail",
+  :text="alertStatus.success ? 'Successfully deleted all records!' : 'Oops, something went wrong!'"
+)
+</template>
+
+<script>
+import axios from 'axios';
+
+export default {
+  name: 'DeleteAllLocs',
+
+  props: {
+    d: { type: Array, default: () => [] },
+  },
+
+  data() {
+    return {
+      allRestLocs: [],
+      alertStatus: {
+        success: false,
+        fail: false,
+      },
+    };
+  },
+
+  methods: {
+
+    async deleteAll(data) {
+      // Deletion status array
+      const resultsStatus = [];
+
+      // Get all restaurant locations ids
+      data.forEach((d) => {
+        this.allRestLocs.push(d.id);
+      });
+
+      console.log(this.allRestLocs);
+
+      // Delete all records and save the deletion status (success/fail)
+      for (let i = 0; i < this.allRestLocs.length; i += 1) {
+        // eslint-disable-next-line no-await-in-loop
+        await axios.delete(
+          `http://localhost:3000/locations/${this.allRestLocs[i]}`,
+        ).then((response) => {
+          if (response.status === 200) resultsStatus.push(true);
+          else resultsStatus.push(false);
+        });
+      }
+
+      // Check records are correctly deleted
+      if (!resultsStatus.includes(false)) {
+        console.log('All is well!');
+
+        // Set success status to true
+        this.alertStatus.success = true;
+
+        // Reset success status to default after 1.5s
+        setTimeout(() => {
+          this.alertStatus.success = false;
+
+          // Reload the page to apply changes
+          window.location.reload();
+        }, 1500);
+      } else { // if not?
+        console.warn(new Error('Oops, looks like we\'ve run into a problem!'));
+
+        // Set fail status to true
+        this.alertStatus.fail = true;
+
+        // Reset fail status to default after 1.2s
+        setTimeout(() => {
+          this.alertStatus.fail = false;
+        }, 1200);
+      }
+    },
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+</style>

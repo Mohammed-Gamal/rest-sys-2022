@@ -1,0 +1,342 @@
+{
+  "users": [
+    {
+      "username": "Mohamed",
+      "password": "medo123",
+      "email": "mohamed@mail.com",
+      "id": 1
+    },
+    {
+      "username": "Ahmed",
+      "password": "ahmed123",
+      "email": "ahmed@mail.com",
+      "id": 2
+    },
+    {
+      "username": "Gamal",
+      "password": "gamal123",
+      "email": "gamal@mail.com",
+      "id": 3
+    }
+  ],
+  "locations": [
+    {
+      "userId": 1,
+      "name": "BSQUARE Corporation",
+      "phone": "568-889-4770",
+      "address": "90 Jenna Court",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "name": "ScanSource, Inc.",
+      "phone": "910-183-9619",
+      "address": "99045 Laurel Pass",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "name": "Differential Brands Group Inc.",
+      "phone": "984-988-4522",
+      "address": "66867 Randy Parkway",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "name": "LendingClub Corporation",
+      "phone": "598-849-3253",
+      "address": "498 Waubesa Trail",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "Itau Unibanco Banco Holding SA",
+      "phone": "828-887-1046",
+      "address": "382 Hazelcrest Terrace",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "name": "Team, Inc.",
+      "phone": "507-555-1150",
+      "address": "96413 Sloan Lane",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "name": "Pacific Special Acquisition Corp.",
+      "phone": "313-117-0863",
+      "address": "39177 Westerfield Avenue",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "name": "Gladstone Land Corporation",
+      "phone": "150-554-6717",
+      "address": "383 Manitowish Point",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "name": "Acuity Brands Inc",
+      "phone": "901-211-9523",
+      "address": "6 Vernon Alley",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "name": "Celgene Corporation",
+      "phone": "321-235-1964",
+      "address": "23 Elmside Point",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "name": "Tekla Life Sciences Investors",
+      "phone": "703-870-4294",
+      "address": "2 Pleasure Circle",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "name": "Great Elm Capital Corp.",
+      "phone": "117-320-2975",
+      "address": "6647 Elka Road",
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "name": "Performant Financial Corporation",
+      "phone": "289-339-0980",
+      "address": "3 Del Mar Parkway",
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "name": "Ingredion Incorporated",
+      "phone": "694-858-8919",
+      "address": "02 Dottie Center",
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "name": "Bank of America Corporation",
+      "phone": "205-200-7866",
+      "address": "05336 Prairie Rose Parkway",
+      "id": 151
+    },
+    {
+      "userId": 2,
+      "name": "Weyco Group, Inc.",
+      "phone": "165-519-9797",
+      "address": "868 Forest Run Park",
+      "id": 16
+    },
+    {
+      "userId": 2,
+      "name": "Putnam Master Intermediate Income Trust",
+      "phone": "472-683-8303",
+      "address": "3 Farragut Center",
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "name": "Community Bank System, Inc.",
+      "phone": "608-937-0786",
+      "address": "56500 Buena Vista Circle",
+      "id": 18
+    },
+    {
+      "userId": 2,
+      "name": "West Corporation",
+      "phone": "648-465-8086",
+      "address": "4 Sycamore Street",
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "name": "C",
+      "phone": "151-172-1747",
+      "address": "5 Schmedeman Way",
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "name": "Royal Caribbean Cruises Ltd.",
+      "phone": "814-375-4908",
+      "address": "845 Burrows Park",
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "name": "J P Morgan Chase & Co",
+      "phone": "638-668-5190",
+      "address": "61050 Hauk Court",
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "name": "BiondVax Pharmaceuticals Ltd.",
+      "phone": "414-267-4744",
+      "address": "6276 Helena Avenue",
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "name": "LRAD Corporation",
+      "phone": "907-687-4285",
+      "address": "9062 Milwaukee Lane",
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "name": "Blackrock Corporate High Yield Fund, Inc.",
+      "phone": "783-558-9560",
+      "address": "017 Banding Plaza",
+      "id": 25
+    },
+    {
+      "userId": 3,
+      "name": "AAON, Inc.",
+      "phone": "528-304-8708",
+      "address": "27 Buell Way",
+      "id": 26
+    },
+    {
+      "userId": 3,
+      "name": "National Health Investors, Inc.",
+      "phone": "423-945-2794",
+      "address": "2868 Florence Alley",
+      "id": 27
+    },
+    {
+      "userId": 3,
+      "name": "Immuron Limited",
+      "phone": "942-837-3709",
+      "address": "8639 Mockingbird Lane",
+      "id": 28
+    },
+    {
+      "userId": 3,
+      "name": "Global Self Storage, Inc.",
+      "phone": "647-478-9992",
+      "address": "7 Express Way",
+      "id": 29
+    },
+    {
+      "userId": 3,
+      "name": "ARMOUR Residential REIT, Inc.",
+      "phone": "845-898-7971",
+      "address": "12 Onsgard Road",
+      "id": 30
+    }
+  ],
+  "categories": [
+    {
+      "name": "Breakfast #1",
+      "userId": "1",
+      "locId": "1",
+      "id": 1
+    },
+    {
+      "name": "Lunch #1",
+      "userId": "1",
+      "locId": "2",
+      "id": 2
+    },
+    {
+      "name": "Dinner #1",
+      "userId": "1",
+      "locId": "3",
+      "id": 3
+    },
+    {
+      "name": "Breakfast #2",
+      "userId": "2",
+      "locId": "1",
+      "id": 4
+    },
+    {
+      "name": "Lunch #2",
+      "userId": "2",
+      "locId": "2",
+      "id": 5
+    },
+    {
+      "name": "Dinner #2",
+      "userId": "2",
+      "locId": "3",
+      "id": 6
+    },
+    {
+      "name": "Breakfast #1",
+      "userId": 3,
+      "locId": "21",
+      "id": 7
+    },
+    {
+      "name": "Fuck Off!",
+      "userId": 1,
+      "locId": 1,
+      "id": 8
+    },
+    {
+      "name": "Mango Juice",
+      "userId": 1,
+      "locId": 1,
+      "id": 6
+    }
+  ],
+  "items": [
+    {
+      "name": "Egg dish #1",
+      "quantity": "5",
+      "price": 119.5,
+      "description": "Nulla ac enim.",
+      "userId": 1,
+      "locId": 1,
+      "catId": 1,
+      "id": 1
+    },
+    {
+      "name": "French Sauce #1",
+      "quantity": 10,
+      "price": 12,
+      "description": "Morbi non quam nec dui luctus rutrum..",
+      "userId": 1,
+      "locId": 1,
+      "catId": 1,
+      "id": 2
+    },
+    {
+      "name": "Egg dish #2",
+      "quantity": 3,
+      "price": 27,
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "userId": 1,
+      "locId": 1,
+      "catId": 6,
+      "id": 3
+    },
+    {
+      "name": "French Sauce #2",
+      "quantity": 12,
+      "price": 1200,
+      "description": "Quisque arcu libero, rutrum acdiam. Nam tristique tortor eu pede.",
+      "userId": 1,
+      "locId": 1,
+      "catId": 6,
+      "id": 4
+    },
+    {
+      "name": "Potato Fries",
+      "quantity": 3,
+      "price": 19,
+      "description": "Delicious potato fries!",
+      "userId": 1,
+      "locId": "1",
+      "catId": 1,
+      "id": 5
+    }
+  ]
+}
